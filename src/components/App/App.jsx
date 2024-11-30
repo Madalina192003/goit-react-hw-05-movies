@@ -9,7 +9,6 @@ import {
 import './App.module.css';
 
 const Home = lazy(() => import('../Home/Home'));
-const Movies = lazy(() => import('../Movies/Movies'));
 const MovieDetails = lazy(() => import('../MovieDetails/MovieDetails'));
 const Cast = lazy(() => import('../Cast/Cast'));
 const Reviews = lazy(() => import('../Reviews/Reviews'));
