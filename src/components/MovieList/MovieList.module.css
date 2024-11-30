@@ -1,0 +1,38 @@
+.movieList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movieListItem {
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.movieListItem:hover {
+  transform: scale(1.05);
+}
+
+.movieListItem img {
+  width: 100%;
+  height: auto;
+}
+
+.movieListItem h2 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.movieListItem p {
+  padding: 0 10px 10px;
+  font-size: 0.9em;
+  color: #555;
+}

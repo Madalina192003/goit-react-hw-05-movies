@@ -1,0 +1,25 @@
+.movieDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.moviePoster {
+  width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.movieLinks {
+  margin: 10px 0;
+}
+
+.movieLinks a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.movieLinks a:hover {
+  text-decoration: underline;
+}
